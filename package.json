@@ -1,0 +1,9 @@
+{
+  "name": "nord-bot",
+  "version": "1.0.0",
+  "description": "Discord-бот NØRD: /post (предложения в Медиа), /link и автосинхронизация ролей с сайтом",
+  "main": "index.js",
+  "scripts": { "start": "node index.js", "test": "node test/logic.test.js" },
+  "engines": { "node": ">=18.17" },
+  "dependencies": { "discord.js": "^14.22.0", "dotenv": "^16.4.5" }
+}
